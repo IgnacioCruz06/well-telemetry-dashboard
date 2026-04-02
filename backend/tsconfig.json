@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* 🔥 BASE */
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+
+    /* 🔥 RUTAS */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* 🔥 NODE */
+    "types": ["node"],
+    "esModuleInterop": true,
+
+    /* 🔥 DEBUG */
+    "sourceMap": true,
+
+    /* 🔥 STRICT */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* 🔥 FIX WARNINGS */
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src"]
+}

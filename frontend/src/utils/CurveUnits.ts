@@ -1,0 +1,18 @@
+export const curveUnits: Record<string, string> = {
+  TIME: "s",
+  WOBA: "ton",
+  BPOS: "m",
+  HKLA: "ton",
+  DEPTH: "m",
+  SPPA: "psi",
+  MBPA: "psi",
+  MFIA: "gpm",
+  MFOP: "%",
+  RPMA: "rpm",
+  ROPA: "m/min",
+  TQA: "lbf-ft",
+  TVT: "m3",
+  METH: "ppm",
+  ETH: "ppm",
+  PRP: "ppm",
+};

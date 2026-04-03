@@ -61,6 +61,24 @@ flowchart LR
     F --> G[Frontend React]
 
     G --> H[Recharts]
+```
+
+```mermaid
+flowchart TD
+    A[Leer archivo LAS] --> B[Detectar ~CURVE]
+    B --> C[Guardar curvas]
+    C --> D[Detectar ~ASCII]
+    D --> E[Leer bloques WRAP]
+
+    E --> F[Parsear valores]
+    F --> G[Construir registro]
+
+    G --> H[Obtener TIME]
+    H --> I[Calcular timestamp]
+
+    I --> J[Batch insert]
+    J --> K[(MongoDB)]
+```
 
 ---
 
